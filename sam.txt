@@ -1,1 +1,3 @@
+
 spachello this is the practice of gite
+git file is added
