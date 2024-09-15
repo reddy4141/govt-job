@@ -1,1 +1,21 @@
-spachello this is the practice of gite
+pipeline {
+    agent any
+    stages{
+        stage('Build'){
+            steps{
+                echo "building...."
+            }
+        }
+            stage('Test'){
+                steps{
+                    echo "testing...."
+            }
+            }
+         stage('Deployment'){
+            steps{
+                echo "deploying...."
+            }
+         }
+          }  
+        }
+    
